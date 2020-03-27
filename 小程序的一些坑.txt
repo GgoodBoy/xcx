@@ -1,0 +1,22 @@
+1. 
+  
+	(1).小程序在真机调试的时候，接口请求把配置参数：
+
+
+        header: {
+          'content-Type': 'application/json;charset=utf-8' 【pc模拟为content-Type：】
+
+          'Content-Type': 'application/json;charset=utf-8' 【真机测试时必须为Content-Type：首字母大写，否则无法调试】
+
+        }||config.header, 
+
+
+2.    uni-app  框架；
+
+	（1）.视频音频组件是不可以在在微信开发者工具中看到效果的，只能在真机中测试看到效果；
+
+	
+
+3.
+
+4.
